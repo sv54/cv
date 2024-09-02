@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Digital CV</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="index2.html">Probando</a>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-10"></div>
+            <div class="col-2 text-center">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn active">
+                        <input type="radio" name="options" id="option1" autocomplete="off"
+                            onclick="changeLanguage('en')"> <img src="images/US-UK_Flag.png" alt="English"
+                            style="width: 40px; height: 20px;">
+                    </label>
+                    <label class="btn">
+                        <input type="radio" name="options" id="option2" autocomplete="off"
+                            onclick="changeLanguage('es')"> <img src="images/es.png" alt="Español"
+                            style="width: 40px; height: 20px;">
+                    </label>
                 </div>
             </div>
         </div>
-    </body>
+
+        <div class="row">
+            <div class="col-12 text-center title">
+                <h1>Serhii Vidernikov</h1>
+            </div>
+            <div class="col-12 text-center">
+                <p>sergswa7@gmail.com</p>
+            </div>
+        </div>
+        <hl />
+
+        <div class="row">
+            <div class="col text-left">
+                <h2 id="titleIntro">Informacion personal</h2>
+                <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col text-left ">
+                <h2 id="expTitle">Experiencia laboral</h2>
+                <div id="expContent"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-left">
+                <h2 id="academTitle">Formacion academica</h2>
+                <div id="academContainer">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-left">
+                <h2 id="proyectosTitle">Proyectos de interes</h2>
+                <div id="proyectosContainer">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-left">
+                <h2 id="tecnTitle" class="mb-4">Habilidades tecnicas</h2>
+                <div id="tecnContainer" class="m-3">
+
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-6">
+                <h2 id="languages" class="mb-4 text-center">Idiomas</h2>
+                <ul class="list-group text-center" id="languagesContainer">
+
+                </ul>
+
+            </div>
+            <div class="col-6">
+                <h2 id="softSkillsTitle" class="mb-4 text-center">Habilidades blandas</h2>
+                <div class="row text-center justify-content-center">
+                    <div class="col-6 ">
+                        <ul class="list-group" id="softSkillsList1">
+                        </ul>
+                    </div>
+                    <div class="col-6 ">
+                        <ul class="list-group" id="softSkillsList2">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
 </html>
