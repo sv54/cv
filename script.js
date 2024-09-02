@@ -41,6 +41,11 @@ const translations = {
             'I developed a mobile game demo using Unity and C#, which included, among many other aspects, level design, animation implementation, and enemy AI. This project involved continuous teamwork, solving problems, and facing new challenges throughout the process. The demo allows for gameplay with both the touchscreen and a controller, and it features the integration of achievements that synchronize with Google Play Store. I actively participated in the testing phase to ensure an optimal user experience and the game\'s stability across different devices.',
             'Technologies used: Unity, C#, Google Play Store', '0'
         ],
+        [
+            'OpenGL + Blender',
+            'This application uses Blender and OpenGL to create and visualize an interactive 3D model of a Formula 1 car. First, the car is designed in Blender, a powerful tool for 3D modeling and animation. The model is then exported and imported into an application developed with OpenGL, a widely used 3D graphics library for rendering real-time graphics. In the OpenGL application, functionality is implemented to rotate and turn the car model. Additionally, two interactive buttons are incorporated to dynamically rotate the car’s wheels. This system provides an immersive and controllable visual experience of the 3D model.',
+            'Technologies used: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
+        ]
     ],
     'tecn': 'Technical Skills',
     'tecnLang': 'Programming Languages',
@@ -54,7 +59,8 @@ const translations = {
     'softSkills': 'Soft Skills',
     'softSkillsList': ['Effective communication', 'Teamwork', 'Problem-solving', 'Time management', 'Adaptability', 'Attention to detail', 'Critical thinking', 'Continuous learning', 'Empathy', 'Self-management', 'Ability to give and receive feedback'],
     'languages':'Languages',
-    'langList': ['Spanish - Fluent (Academic and professional experience in Spain)','English - B2 (First Certificate in English)','Ukrainian - Native','Russian - Native']
+    'langList': ['Spanish - Fluent (Academic and professional experience in Spain)','English - B2 (First Certificate in English)','Ukrainian - Native','Russian - Native'],
+    'contact' : 'Available for any questions at sergswa7@gmail.com'
     },
     'es': {
         'info': 'Información personal',
@@ -96,7 +102,12 @@ const translations = {
             [
                 'Desarrollo de videojuego para móviles',
                 'Desarrollé una demo de videojuego para móviles utilizando Unity y C#, que incluyó, entre muchos otros aspectos, el diseño de niveles, la implementación de animaciones y la inteligencia artificial de los enemigos. Este proyecto involucró un continuo trabajo en equipo, resolviendo problemas y enfrentando nuevos desafíos a lo largo del proceso. La demo permite jugar tanto con la pantalla táctil como con un mando, y cuenta con la integración de logros que se sincronizan con Google Play Store. Participé activamente en la fase de prueba para asegurar una experiencia de usuario óptima y la estabilidad del juego en diferentes dispositivos.',
-                'Tecnologias usadas: Unity, C#, Google Play Store', '0'
+                'Tecnologias usadas: Unity, C#, Google Play Store', '1', 'https://www.youtube.com/embed/YnsB5CmXYdI?si=xK86e71FLGE0YBK0'
+            ],
+            [
+                'OpenGL + Blender',
+                'Esta aplicación utiliza Blender y OpenGL para crear y visualizar un modelo 3D interactivo de un coche de Fórmula 1. Primero, el coche se diseña en Blender, una herramienta potente para modelado 3D y animación. Luego, el modelo se exporta e importa en una aplicación desarrollada con OpenGL, una biblioteca de gráficos 3D ampliamente utilizada para renderizar gráficos en tiempo real. En la aplicación OpenGL, se implementa funcionalidad para rotar y girar el modelo del coche. Además, se incorporan dos botones interactivos que permiten girar las ruedas del coche de manera dinámica. Este sistema ofrece una experiencia visual inmersiva y controlable del modelo 3D.',
+                'Tecnologias usadas: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
             ],
             ],
         'tecn': 'Habilidades técnicas',
@@ -111,7 +122,10 @@ const translations = {
         'softSkills': 'Habilidades Blandas',
         'softSkillsList': ['Comunicación efectiva', 'Trabajo en equipo', 'Resolución de problemas', 'Gestión del tiempo', 'Adaptabilidad', 'Atención al detalle', 'Pensamiento crítico', 'Aprendizaje continuo', 'Empatía', 'Autogestión', 'Capacidad de feedback'],
         'languages':'Idiomas',
-         'langList': ['Español - Fluido (Experiencia académica y laboral en España)','Inglés - B2 (First Certificate in English)','Ucraniando - Nativo','Ruso - Nativo']
+         'langList': ['Español - Fluido (Experiencia académica y laboral en España)','Inglés - B2 (First Certificate in English)','Ucraniando - Nativo','Ruso - Nativo'],
+        'contact' : 'Disponible para cualquier duda en sergswa7@gmail.com'
+
+        
     }
 };
 
@@ -144,12 +158,16 @@ function changeLanguage(lang) {
         
         // Rellenar el contenido de la tarjeta
         cardElement.innerHTML = `
-            <div class="d-flex">
-                <img src="${card[3]}" class="card-img-left p-2" alt="Logo" style="width: 150px; height: auto; object-fit: contain;">
-                <div class="card-body text-left">
-                    <h5 class="card-title pl-3">${card[0]}</h5>
-                    <p class="card-text pl-3">${card[1]}</p>
-                    <p class="card-subtitle pl-3">${card[2]}</p>
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-2 d-flex justify-content-center align-items-center">
+                    <img src="${card[3]}" class="card-img-left p-2 img-fluid" alt="Logo" style="max-width: 100%; height: auto; object-fit: contain;">
+                </div>
+                <div class="col-12 col-md-9 col-lg-10">
+                    <div class="card-body text-left">
+                        <h5 class="card-title pl-3">${card[0]}</h5>
+                        <p class="card-text pl-3">${card[1]}</p>
+                        <p class="card-subtitle pl-3">${card[2]}</p>
+                    </div>
                 </div>
             </div>
         `;
@@ -168,12 +186,16 @@ function changeLanguage(lang) {
         
         // Rellenar el contenido de la tarjeta
         cardElement.innerHTML = `
-            <div class="d-flex">
-                <img src="${card[3]}" class="card-img-left" alt="Logo" style="width: 150px; height: auto; object-fit: fit;">
-                <div class="card-body text-left">
-                    <h5 class="card-title">${card[0]}</h5>
-                    <p class="card-text">${card[1]}</p>
-                    <p class="card-subtitle fechas">${card[2]}</p>
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-2 d-flex justify-content-center align-items-center">
+                    <img src="${card[3]}" class="card-img-left p-2 img-fluid" alt="Logo" style="max-width: 100%; height: auto; object-fit: contain;">
+                </div>
+                <div class="col-12 col-md-9 col-lg-10">
+                    <div class="card-body text-left">
+                        <h5 class="card-title pl-3">${card[0]}</h5>
+                        <p class="card-text pl-3">${card[1]}</p>
+                        <p class="card-subtitle pl-3">${card[2]}</p>
+                    </div>
                 </div>
             </div>
         `;
@@ -192,7 +214,9 @@ function changeLanguage(lang) {
             <h4>${element[0]}</h4>
             <p>${element[1]}</p>
             <h5>${element[2]}</h5>
-            <iframe width="560" height="315" src=${element[4]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="responsive-iframe-container">
+                <iframe width="560" height="315" src=${element[4]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <hr>
         `;
         }
@@ -266,6 +290,8 @@ function changeLanguage(lang) {
         count = count+ 1
 
     })
+
+    document.getElementById('contactInfo').innerHTML = selectedTranslations.contact
     
     // document.getElementById('title').innerText = selectedTranslations.title;
     // document.getElementById('description').innerText = selectedTranslations.description;
