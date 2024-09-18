@@ -1,66 +1,66 @@
 const translations = {
     'en': {
-    'info': 'Personal Information',
-    'infoDesc': 'I am a highly versatile and results-oriented software developer. My studies have provided me with a solid foundation of experience in various technological aspects and challenges, covering a wide range of tools and programming languages, which I detail in the following sections. My ability to quickly adapt to new tools and methodologies, along with my passion for problem-solving and facing new challenges, has enabled me to contribute effectively to the projects I have participated in. With a proactive attitude and a mindset focused on continuous learning, I am committed to staying updated with the latest technologies in the field of software development. I have demonstrated strong skills in using version control tools like Git, facilitating collaboration and code management in an agile development environment. This experience has been fundamental in following agile methodologies, allowing me to collaborate effectively with multidisciplinary teams in the planning, execution, and delivery of projects.',
-    'exp': 'Work Experience',
-    'expList': [
-        [
-            'NTT Data',
-            `In my position at NTT Data, I gained valuable experience working with technologies such as ASP, ASPX, and SQL Server. I was involved in the development and maintenance of web applications, using ASP.NET and ASPX to create functional solutions. Additionally, I managed databases with SQL Server, participating in query optimization and schema design.
+        'info': 'Personal Information',
+        'infoDesc': 'I am a highly versatile and results-oriented software developer. My studies have provided me with a solid foundation of experience in various technological aspects and challenges, covering a wide range of tools and programming languages, which I detail in the following sections. My ability to quickly adapt to new tools and methodologies, along with my passion for problem-solving and facing new challenges, has enabled me to contribute effectively to the projects I have participated in. With a proactive attitude and a mindset focused on continuous learning, I am committed to staying updated with the latest technologies in the field of software development. I have demonstrated strong skills in using version control tools like Git, facilitating collaboration and code management in an agile development environment. This experience has been fundamental in following agile methodologies, allowing me to collaborate effectively with multidisciplinary teams in the planning, execution, and delivery of projects.',
+        'exp': 'Work Experience',
+        'expList': [
+            [
+                'NTT Data',
+                `In my position at NTT Data, I gained valuable experience working with technologies such as ASP, ASPX, and SQL Server. I was involved in the development and maintenance of web applications, using ASP.NET and ASPX to create functional solutions. Additionally, I managed databases with SQL Server, participating in query optimization and schema design.
 
             I used Git for version control, which facilitated effective team collaboration and code management. This experience was complemented by following agile methodologies, where I worked in sprints and participated in daily meetings, allowing me to adapt to rapid changes and contribute to the successful delivery of projects.
 
             My experience at this company strengthened my skills in teamwork and project management within an agile environment, providing a solid foundation for my continuous professional development.`,
-            'February - May 2024',
-            'images/NTT-Data-Logo.png'],
-        [
-            'Costa Soñada Real Estate',
-            'In my role at Costa Soñada, I consistently worked as part of a team to develop and maintain the company\'s website. I participated in implementing new features and general site maintenance, using JavaScript, HTML, CSS, and WordPress. My experience included closely collaborating with designers and developers to ensure that improvements and adjustments were effectively integrated, optimizing the user experience and site functionality.',
-            'June - September 2023',
-            'images/CostaSonadaLogo.png']],
-    'academ': 'Academic Background',
-    'academList': [
-        ['University Master\'s degree in Development of Applications and Web Services', 'University of Alicante', '2023 - 2024', 'images/UaLogo.png'],
-        ['Degree in Computer Engineering', 'University of Alicante', '2019 - 2023', 'images/UaLogo.png'],
-        // ['High School Diploma', 'IES L\'Almadrava', '2017 - 2019', '']
-    ],
-    'projects': 'Projects I Participated In',
-    'projectsList': [
-        [
-            'Bachelor\'s Thesis',
-            'In my Bachelor\'s Thesis project, I developed a fall detection system for the elderly using a camera and artificial intelligence technologies. The system employs Python along with TensorFlow and Keras to train machine learning models that identify falls in real-time. I used OpenCV for image processing, enabling continuous video capture and analysis. The goal of the project is to improve the safety of older adults by quickly alerting in case of a fall to facilitate timely intervention.',
-            'Technologies used: Python, OpenCV, TensorFlow, Keras, MediaPipe.', '1', 'https://www.youtube.com/embed/cUkGU9l-Hvk?si=_YPxxvrOLJs-RxjV'
+                'February - May 2024',
+                'images/NTT-Data-Logo.png'],
+            [
+                'Costa Soñada Real Estate',
+                'In my role at Costa Soñada, I consistently worked as part of a team to develop and maintain the company\'s website. I participated in implementing new features and general site maintenance, using JavaScript, HTML, CSS, and WordPress. My experience included closely collaborating with designers and developers to ensure that improvements and adjustments were effectively integrated, optimizing the user experience and site functionality.',
+                'June - September 2023',
+                'images/CostaSonadaLogo.png']],
+        'academ': 'Academic Background',
+        'academList': [
+            ['University Master\'s degree in Development of Applications and Web Services', 'University of Alicante', '2023 - 2024', 'images/UaLogo.png'],
+            ['Degree in Computer Engineering', 'University of Alicante', '2019 - 2023', 'images/UaLogo.png'],
+            // ['High School Diploma', 'IES L\'Almadrava', '2017 - 2019', '']
         ],
-        [
-            'Master\'s Thesis',
-            'In my Master\'s Thesis project, I developed an Android application for recommending tourist destinations that allows users to register and log in to access personalized recommendations. The application is based on opinions and ratings from other visitors to suggest suitable destinations. The project included designing and developing the user interface (UI) as well as implementing the backend and managing the database to store and process user data and opinions. Additionally, the application integrates features and an attractive design to ensure a smooth and efficient user experience, improving users\' decision-making when planning their trips.',
-            'Technologies used: Kotlin, Python, Node.js, Express.js, SQLite, Jira, and agile methodologies', '1', 'https://www.youtube.com/embed/aWqbH0idgDg?si=TPb3bXeawDSTkItc'
+        'projects': 'Projects I Participated In',
+        'projectsList': [
+            [
+                'Bachelor\'s Thesis',
+                'In my Bachelor\'s Thesis project, I developed a fall detection system for the elderly using a camera and artificial intelligence technologies. The system employs Python along with TensorFlow and Keras to train machine learning models that identify falls in real-time. I used OpenCV for image processing, enabling continuous video capture and analysis. The goal of the project is to improve the safety of older adults by quickly alerting in case of a fall to facilitate timely intervention.',
+                'Technologies used: Python, OpenCV, TensorFlow, Keras, MediaPipe.', '1', 'https://www.youtube.com/embed/cUkGU9l-Hvk?si=_YPxxvrOLJs-RxjV'
+            ],
+            [
+                'Master\'s Thesis',
+                'In my Master\'s Thesis project, I developed an Android application for recommending tourist destinations that allows users to register and log in to access personalized recommendations. The application is based on opinions and ratings from other visitors to suggest suitable destinations. The project included designing and developing the user interface (UI) as well as implementing the backend and managing the database to store and process user data and opinions. Additionally, the application integrates features and an attractive design to ensure a smooth and efficient user experience, improving users\' decision-making when planning their trips.',
+                'Technologies used: Kotlin, Python, Node.js, Express.js, SQLite, Jira, and agile methodologies', '1', 'https://www.youtube.com/embed/7aic54Et5ho?si=kfh7YBoD0YLV4kKr'
+            ],
+            [
+                'Mobile Game Development',
+                'I developed a mobile game demo using Unity and C#, which included, among many other aspects, level design, animation implementation, and enemy AI. This project involved continuous teamwork, solving problems, and facing new challenges throughout the process. The demo allows for gameplay with both the touchscreen and a controller, and it features the integration of achievements that synchronize with Google Play Store. I actively participated in the testing phase to ensure an optimal user experience and the game\'s stability across different devices.',
+                'Technologies used: Unity, C#, Google Play Store', '0'
+            ],
+            [
+                'OpenGL + Blender',
+                'This application uses Blender and OpenGL to create and visualize an interactive 3D model of a Formula 1 car. First, the car is designed in Blender, a powerful tool for 3D modeling and animation. The model is then exported and imported into an application developed with OpenGL, a widely used 3D graphics library for rendering real-time graphics. In the OpenGL application, functionality is implemented to rotate and turn the car model. Additionally, two interactive buttons are incorporated to dynamically rotate the car’s wheels. This system provides an immersive and controllable visual experience of the 3D model.',
+                'Technologies used: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
+            ]
         ],
-        [
-            'Mobile Game Development',
-            'I developed a mobile game demo using Unity and C#, which included, among many other aspects, level design, animation implementation, and enemy AI. This project involved continuous teamwork, solving problems, and facing new challenges throughout the process. The demo allows for gameplay with both the touchscreen and a controller, and it features the integration of achievements that synchronize with Google Play Store. I actively participated in the testing phase to ensure an optimal user experience and the game\'s stability across different devices.',
-            'Technologies used: Unity, C#, Google Play Store', '0'
-        ],
-        [
-            'OpenGL + Blender',
-            'This application uses Blender and OpenGL to create and visualize an interactive 3D model of a Formula 1 car. First, the car is designed in Blender, a powerful tool for 3D modeling and animation. The model is then exported and imported into an application developed with OpenGL, a widely used 3D graphics library for rendering real-time graphics. In the OpenGL application, functionality is implemented to rotate and turn the car model. Additionally, two interactive buttons are incorporated to dynamically rotate the car’s wheels. This system provides an immersive and controllable visual experience of the 3D model.',
-            'Technologies used: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
-        ]
-    ],
-    'tecn': 'Technical Skills',
-    'tecnLang': 'Programming Languages',
-    'tecnLangList': ['C++', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Swift', 'Kotlin', 'HTML', 'CSS', 'PHP', 'ASP', 'ASPX'],
-    'tecnLib': 'Frameworks and Libraries Experience',
-    'tecnLibList': ['Node.js', 'Vue.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
-    'tecnDB': 'Databases Experience',
-    'tecnDBList': [ 'MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
-    'tecnTools': 'Tools Experience',
-    'tecnToolsList': ['Eclipse', 'IntelliJ IDEA', 'Selenium', 'Unity', 'Android Studio', 'Xcode', 'Postman', 'Blender', 'Git', 'GitHub', 'Docker', 'Jenkins', 'Visual Studio Code'],
-    'softSkills': 'Soft Skills',
-    'softSkillsList': ['Effective communication', 'Teamwork', 'Problem-solving', 'Time management', 'Adaptability', 'Attention to detail', 'Critical thinking', 'Continuous learning', 'Empathy', 'Self-management', 'Ability to give and receive feedback'],
-    'languages':'Languages',
-    'langList': ['Spanish - Fluent (Academic and professional experience in Spain)','English - B2 (First Certificate in English)','Ukrainian - Native','Russian - Native'],
-    'contact' : 'Available for any questions at sergswa7@gmail.com'
+        'tecn': 'Technical Skills',
+        'tecnLang': 'Programming Languages',
+        'tecnLangList': ['C++', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Swift', 'Kotlin', 'HTML', 'CSS', 'PHP', 'ASP', 'ASPX'],
+        'tecnLib': 'Frameworks and Libraries Experience',
+        'tecnLibList': ['Node.js', 'Vue.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
+        'tecnDB': 'Databases Experience',
+        'tecnDBList': ['MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
+        'tecnTools': 'Tools Experience',
+        'tecnToolsList': ['Eclipse', 'IntelliJ IDEA', 'Selenium', 'Unity', 'Android Studio', 'Xcode', 'Postman', 'Blender', 'Git', 'GitHub', 'Docker', 'Jenkins', 'Visual Studio Code'],
+        'softSkills': 'Soft Skills',
+        'softSkillsList': ['Effective communication', 'Teamwork', 'Problem-solving', 'Time management', 'Adaptability', 'Attention to detail', 'Critical thinking', 'Continuous learning', 'Empathy', 'Self-management', 'Ability to give and receive feedback'],
+        'languages': 'Languages',
+        'langList': ['Spanish - Fluent (Academic and professional experience in Spain)', 'English - B2 (First Certificate in English)', 'Ukrainian - Native', 'Russian - Native'],
+        'contact': 'Available for any questions at sergswa7@gmail.com'
     },
     'es': {
         'info': 'Información personal',
@@ -97,7 +97,7 @@ const translations = {
             [
                 'Trabajo de Fin de Master',
                 'En mi proyecto de TFM, desarrollé una aplicación Android de recomendación de destinos turísticos que permite a los usuarios registrarse e iniciar sesión para acceder a recomendaciones personalizadas. La aplicación se basa en opiniones y valoraciones de otros visitantes para sugerir destinos adecuados. El proyecto incluyó el diseño y desarrollo de la interfaz de usuario (UI), así como la implementación del backend y la gestión de la base de datos para almacenar y procesar datos de usuarios y opiniones. Además, la aplicación integra funcionalidades y diseño atractivo para asegurar una experiencia de usuario fluida y eficiente, mejorando la toma de decisiones de los usuarios al planificar sus viajes.',
-                'Tecnologías usadas: Kotlin, Python, Node.js, Express.js, SQLite, Jira y metodologias agiles', '1', 'https://www.youtube.com/embed/aWqbH0idgDg?si=TPb3bXeawDSTkItc'
+                'Tecnologías usadas: Kotlin, Python, Node.js, Express.js, SQLite, Jira y metodologias agiles', '1', 'https://www.youtube.com/embed/7aic54Et5ho?si=kfh7YBoD0YLV4kKr'
             ],
             [
                 'Desarrollo de videojuego para móviles',
@@ -109,23 +109,23 @@ const translations = {
                 'Esta aplicación utiliza Blender y OpenGL para crear y visualizar un modelo 3D interactivo de un coche de Fórmula 1. Primero, el coche se diseña en Blender, una herramienta potente para modelado 3D y animación. Luego, el modelo se exporta e importa en una aplicación desarrollada con OpenGL, una biblioteca de gráficos 3D ampliamente utilizada para renderizar gráficos en tiempo real. En la aplicación OpenGL, se implementa funcionalidad para rotar y girar el modelo del coche. Además, se incorporan dos botones interactivos que permiten girar las ruedas del coche de manera dinámica. Este sistema ofrece una experiencia visual inmersiva y controlable del modelo 3D.',
                 'Tecnologias usadas: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
             ],
-            ],
+        ],
         'tecn': 'Habilidades técnicas',
         'tecnLang': 'Lenguajes de programación',
         'tecnLangList': ['C++', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Swift', 'Kotlin', 'HTML', 'CSS', 'PHP', 'ASP', 'ASPX'],
         'tecnLib': 'Experiencia con frameworks y libreria',
         'tecnLibList': ['Node.js', 'Vue.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
         'tecnDB': 'Experiencia con Bases de Datos',
-        'tecnDBList': [ 'MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
+        'tecnDBList': ['MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
         'tecnTools': 'Experiencia con uso de herramientas',
         'tecnToolsList': ['Eclipse', 'IntelliJ IDEA', 'Selenium', 'Unity', 'Android Studio', 'Xcode', 'Postman', 'Blender', 'Git', 'GitHub', 'Docker', 'Jenkins', 'Visual Studio Code'],
         'softSkills': 'Habilidades Blandas',
         'softSkillsList': ['Comunicación efectiva', 'Trabajo en equipo', 'Resolución de problemas', 'Gestión del tiempo', 'Adaptabilidad', 'Atención al detalle', 'Pensamiento crítico', 'Aprendizaje continuo', 'Empatía', 'Autogestión', 'Capacidad de feedback'],
-        'languages':'Idiomas',
-         'langList': ['Español - Fluido (Experiencia académica y laboral en España)','Inglés - B2 (First Certificate in English)','Ucraniando - Nativo','Ruso - Nativo'],
-        'contact' : 'Disponible para cualquier duda en sergswa7@gmail.com'
+        'languages': 'Idiomas',
+        'langList': ['Español - Fluido (Experiencia académica y laboral en España)', 'Inglés - B2 (First Certificate in English)', 'Ucraniando - Nativo', 'Ruso - Nativo'],
+        'contact': 'Disponible para cualquier duda en sergswa7@gmail.com'
 
-        
+
     }
 };
 
@@ -155,7 +155,7 @@ function changeLanguage(lang) {
         // Crear el elemento de la tarjeta
         const cardElement = document.createElement('div');
         cardElement.className = 'card custom-card my-1 p-3 mb-5';
-        
+
         // Rellenar el contenido de la tarjeta
         cardElement.innerHTML = `
             <div class="row">
@@ -183,7 +183,7 @@ function changeLanguage(lang) {
         // Crear el elemento de la tarjeta
         const cardElement = document.createElement('div');
         cardElement.className = 'card custom-card m-3 p-3';
-        
+
         // Rellenar el contenido de la tarjeta
         cardElement.innerHTML = `
             <div class="row">
@@ -209,7 +209,7 @@ function changeLanguage(lang) {
     proyectosList.forEach(element => {
         const divElement = document.createElement('div')
         divElement.className = 'm-3 p-3'
-        if(element[3] == 1){
+        if (element[3] == 1) {
             divElement.innerHTML = `
             <h4>${element[0]}</h4>
             <p>${element[1]}</p>
@@ -220,7 +220,7 @@ function changeLanguage(lang) {
             <hr>
         `;
         }
-        else{
+        else {
             divElement.innerHTML = `
             <h4>${element[0]}</h4>
             <p>${element[1]}</p>
@@ -261,7 +261,7 @@ function changeLanguage(lang) {
     const languagesContainer = document.getElementById('languagesContainer')
     languagesContainer.innerHTML = ''
     const languagesList = selectedTranslations.langList
-    languagesList.forEach( element => {
+    languagesList.forEach(element => {
         item = document.createElement('li')
         item.className = 'list-group-item'
         item.innerText = element
@@ -269,7 +269,7 @@ function changeLanguage(lang) {
     })
 
 
-    
+
     const softSkillsContainer1 = document.getElementById('softSkillsList1')
     const softSkillsContainer2 = document.getElementById('softSkillsList2')
     softSkillsContainer1.innerHTML = ''
@@ -281,18 +281,18 @@ function changeLanguage(lang) {
         item = document.createElement('li')
         item.className = 'list-group-item'
         item.innerText = element
-        if(count % 2 == 0 ){
-            softSkillsContainer1.appendChild(item)        
+        if (count % 2 == 0) {
+            softSkillsContainer1.appendChild(item)
         }
-        else{
-            softSkillsContainer2.appendChild(item)        
+        else {
+            softSkillsContainer2.appendChild(item)
         }
-        count = count+ 1
+        count = count + 1
 
     })
 
     document.getElementById('contactInfo').innerHTML = selectedTranslations.contact
-    
+
     // document.getElementById('title').innerText = selectedTranslations.title;
     // document.getElementById('description').innerText = selectedTranslations.description;
 }
