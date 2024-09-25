@@ -45,6 +45,11 @@ const translations = {
                 'OpenGL + Blender',
                 'This application uses Blender and OpenGL to create and visualize an interactive 3D model of a Formula 1 car. First, the car is designed in Blender, a powerful tool for 3D modeling and animation. The model is then exported and imported into an application developed with OpenGL, a widely used 3D graphics library for rendering real-time graphics. In the OpenGL application, functionality is implemented to rotate and turn the car model. Additionally, two interactive buttons are incorporated to dynamically rotate the car’s wheels. This system provides an immersive and controllable visual experience of the 3D model.',
                 'Technologies used: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
+            ],
+            [
+                'Web page with React',
+                'A simple web application using React that consumes NASA\'s \'Astronomy Picture of the Day\'(APOD) API.The app allows users to view the featured astronomical image of the day along with its description and additional details provided by NASA.I implemented dynamic components to enhance interactivity and used state management to update the content daily.This project showcases my ability to work with external APIs and build intuitive interfaces using modern technologies like React.',
+                'Technologies used: React, JavaScript', '2', '<a href="https://serhii-react-nasa.netlify.app/">Available here!</a>'
             ]
         ],
         'tecn': 'Technical Skills',
@@ -84,7 +89,7 @@ const translations = {
         'academ': 'Formación académica',
         'academList': [
             ['Máster Universitario en Desarrollo de Aplicaciones y Servicios Web', 'Universidad de Alicante', '2023 - 2024', 'images/UaLogo.png'],
-            ['Grado de Ingeniería Informática', 'Universidad de Alicante', '2019 - 2023', 'images/UaLogo.png'],
+            ['Grado en Ingeniería Informática', 'Universidad de Alicante', '2019 - 2023', 'images/UaLogo.png'],
             // ['Bachillerato', 'IES L\'Almadrava', '2017 - 2019', '']
         ],
         'projects': 'Proyectos en los que participé',
@@ -109,6 +114,11 @@ const translations = {
                 'Esta aplicación utiliza Blender y OpenGL para crear y visualizar un modelo 3D interactivo de un coche de Fórmula 1. Primero, el coche se diseña en Blender, una herramienta potente para modelado 3D y animación. Luego, el modelo se exporta e importa en una aplicación desarrollada con OpenGL, una biblioteca de gráficos 3D ampliamente utilizada para renderizar gráficos en tiempo real. En la aplicación OpenGL, se implementa funcionalidad para rotar y girar el modelo del coche. Además, se incorporan dos botones interactivos que permiten girar las ruedas del coche de manera dinámica. Este sistema ofrece una experiencia visual inmersiva y controlable del modelo 3D.',
                 'Tecnologias usadas: Blender, OpenGL, C++', '1', 'https://www.youtube.com/embed/HqPL9-DKbWM?si=0MUxbe1CwzEs7rV3'
             ],
+            [
+                'Pagina web con React',
+                'Desarrollé una simple aplicación web con React que consume la API "Astronomy Picture of the Day" (APOD) de la NASA. La aplicación permite a los usuarios visualizar la imagen astronómica destacada del día, junto con su descripción y datos adicionales proporcionados por la NASA. Implementé componentes dinámicos para mejorar la interactividad y utilicé gestión de estado para actualizar el contenido diariamente. Este proyecto demuestra mi habilidad para trabajar con APIs externas y construir interfaces intuitivas usando tecnologías modernas como React.',
+                'Tecnologias usadas: React, JavaScript', '2', '<a href="https://serhii-react-nasa.netlify.app/">Disponible aqui!</a>'
+            ]
         ],
         'tecn': 'Habilidades técnicas',
         'tecnLang': 'Lenguajes de programación',
@@ -217,6 +227,15 @@ function changeLanguage(lang) {
             <div class="responsive-iframe-container">
                 <iframe width="560" height="315" src=${element[4]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+            <hr>
+        `;
+        }
+        else if (element[3] == 2) {
+            divElement.innerHTML = `
+            <h4>${element[0]}</h4>
+            <p>${element[1]}</p>
+            <h5>${element[2]}</h5>
+            ${element[4]}
             <hr>
         `;
         }
