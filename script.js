@@ -124,7 +124,7 @@ const translations = {
         'tecnLang': 'Lenguajes de programación',
         'tecnLangList': ['C++', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Swift', 'Kotlin', 'HTML', 'CSS', 'PHP', 'ASP', 'ASPX'],
         'tecnLib': 'Experiencia con frameworks y libreria',
-        'tecnLibList': ['Node.js', 'Vue.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
+        'tecnLibList': ['Node.js', 'Vue.js', 'React.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
         'tecnDB': 'Experiencia con Bases de Datos',
         'tecnDBList': ['MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
         'tecnTools': 'Experiencia con uso de herramientas',
