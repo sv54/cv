@@ -50,6 +50,11 @@ const translations = {
                 'Web page with React',
                 'A simple web application using React that consumes NASA\'s \'Astronomy Picture of the Day\'(APOD) API.The app allows users to view the featured astronomical image of the day along with its description and additional details provided by NASA.I implemented dynamic components to enhance interactivity and used state management to update the content daily.This project showcases my ability to work with external APIs and build intuitive interfaces using modern technologies like React.',
                 'Technologies used: React, JavaScript', '2', '<a href="https://serhii-react-nasa.netlify.app/">Available here!</a>'
+            ],
+            [
+                'eCommerce application with Flutter',
+                'Demo eCommerce store application developed with Flutter, featuring a products page and a cart page. It allows users to browse products and add them to the cart, simulating the online shopping experience.',
+                'Technologies used: Flutter', '1', '"https://www.youtube.com/embed/KfYaTgqg_X4?si=2NVvD7oEdh5jJSXv"'
             ]
         ],
         'tecn': 'Technical Skills',
@@ -118,16 +123,21 @@ const translations = {
                 'Pagina web con React',
                 'Desarrollé una simple aplicación web con React que consume la API "Astronomy Picture of the Day" (APOD) de la NASA. La aplicación permite a los usuarios visualizar la imagen astronómica destacada del día, junto con su descripción y datos adicionales proporcionados por la NASA. Implementé componentes dinámicos para mejorar la interactividad y utilicé gestión de estado para actualizar el contenido diariamente. Este proyecto demuestra mi habilidad para trabajar con APIs externas y construir interfaces intuitivas usando tecnologías modernas como React.',
                 'Tecnologias usadas: React, JavaScript', '2', '<a href="https://serhii-react-nasa.netlify.app/">Disponible aqui!</a>'
+            ],
+            [
+                'Aplicación eCommerce  con Flutter',
+                'Aplicación de demostración de tienda eCommerce desarrollada con Flutter, que incluye una página de productos y una página de carrito. Permite a los usuarios explorar productos y agregarlos al carrito, simulando la experiencia de compra en línea.',
+                'Tecnologias usadas: Flutter', '1', '"https://www.youtube.com/embed/KfYaTgqg_X4?si=2NVvD7oEdh5jJSXv"'
             ]
         ],
         'tecn': 'Habilidades técnicas',
         'tecnLang': 'Lenguajes de programación',
         'tecnLangList': ['C++', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Swift', 'Kotlin', 'HTML', 'CSS', 'PHP', 'ASP', 'ASPX'],
-        'tecnLib': 'Experiencia con frameworks y libreria',
+        'tecnLib': 'Experiencia con frameworks y librerias',
         'tecnLibList': ['Node.js', 'Vue.js', 'React.js', 'RESTful APIs', 'TensorFlow', 'Keras', 'Laravel', 'Ionic', 'Spring', 'Express.js'],
         'tecnDB': 'Experiencia con Bases de Datos',
         'tecnDBList': ['MySQL', 'MariaDB', 'SQLite', 'PostgreSQL', 'MongoDB', 'SQL Server Management Studio'],
-        'tecnTools': 'Experiencia con uso de herramientas',
+        'tecnTools': 'Herramientas',
         'tecnToolsList': ['Eclipse', 'IntelliJ IDEA', 'Selenium', 'Unity', 'Android Studio', 'Xcode', 'Postman', 'Blender', 'Git', 'GitHub', 'Docker', 'Jenkins', 'Visual Studio Code'],
         'softSkills': 'Habilidades Blandas',
         'softSkillsList': ['Comunicación efectiva', 'Trabajo en equipo', 'Resolución de problemas', 'Gestión del tiempo', 'Adaptabilidad', 'Atención al detalle', 'Pensamiento crítico', 'Aprendizaje continuo', 'Empatía', 'Autogestión', 'Capacidad de feedback'],
